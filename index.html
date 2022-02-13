@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link rel ="stylesheet" href="estilos.css"></title>
+    <style type="text/css">
+        * {
+            padding:0px;
+            margin:0px;
+        }
+        #header {
+            margin:30px auto;
+            width:800px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        ul,ol{
+            list-style: none;
+        }
+        .nav li a {
+            background-color: rgb(255, 230, 0);
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding:10px 15px;
+            display: block;
+        }
+        
+        .nav li a:hover{
+            background-color: antiquewhite;
+        }
+        .nav > li {
+            float:left;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+        .nav li:hover>ul {
+            display: block;
+
+        }
+        .nav li ul li{
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body background="imagenes/fondito3.jpg">
+
+    <div id="header">
+        <ul class="nav">
+            <li><a href="index.html">Home Page</a></li>
+
+            <li><a href="">Acerca de mi</a>
+                <ul>
+                    <li><a href="sobremi.html">Vida personal</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                </ul>     
+            </li>
+
+            <li><a href="">Servicios y habilidades</a>
+                <ul>
+                    <li><a href="service.html">Servicios y trabajos previos</a></li>
+                    <li><a href="estudios.html">Experiencia universitaria y preuniversitaria</a></li>
+                </ul>  
+            </li>  
+            <li><a href="Contacto.html">Contáctame</a></li>
+
+
+        </ul> <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        
+
+    </div>
+    <div id="deslizable">
+        <ul>
+            <li><img src ="imagenes/uno.jpg" alt=""></li>
+            <li><img src ="imagenes/dos.jpg" alt=""></li>
+            <li><img src ="imagenes/tres.jpg" alt=""></li>
+            <li><img src ="imagenes/cuatro.jpg" alt=""></li>
+
+        </ul> 
+    
+</body>
+</html>
